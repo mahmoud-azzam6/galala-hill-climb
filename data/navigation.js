@@ -1,0 +1,32 @@
+{
+    "navigation":[
+        {
+            "title":"Home",
+            "url":"index.html"
+        },
+        {
+            "title":"Event",
+            "url":"event.html"
+        },
+        {
+            "title":"Cars",
+            "url":"cars.html"
+        },
+        {
+            "title":"Gallery",
+            "url":"gallery.html"
+        },
+        {
+            "title":"Sponsors",
+            "url":"sponsors.html"
+        },
+        {
+            "title":"Packages",
+            "url":"packages.html"
+        },
+        {
+            "title":"Contact",
+            "url":"contact.html"
+        }
+    ]
+}
