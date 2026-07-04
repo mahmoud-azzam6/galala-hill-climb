@@ -1,0 +1,132 @@
+.hero{
+
+    position:relative;
+
+    min-height:100vh;
+
+    display:flex;
+
+    align-items:center;
+
+    background:url("../../assets/images/hero/hero-road.webp") center center/cover;
+
+    overflow:hidden;
+
+}
+
+.hero-overlay{
+    position:absolute;
+    inset:0;
+    background:
+    linear-gradient(
+        90deg,
+        rgba(5,5,5,.72) 0%,
+        rgba(5,5,5,.60) 35%,
+        rgba(5,5,5,.35) 70%,
+        rgba(5,5,5,.55) 100%
+    );
+}
+.hero-content{
+    position:relative;
+    z-index:5;
+    max-width:920px;
+    /* padding-left:80px; */
+}
+.hero-location{
+
+    color:var(--color-primary);
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+    font-size:.9rem;
+
+}
+.hero h1{
+    margin-top:10px;
+    margin-bottom:5px;
+    font-size:clamp(4rem,8vw,7rem);
+    line-height:.9;
+}
+
+.hero h1 span{
+
+    display:block;
+
+    color:var(--color-primary);
+
+}
+.hero p{
+    max-width:620px;
+    font-size:1.3rem;
+    line-height:1.8;
+    margin:5px 0 15px;
+}
+.hero-buttons{
+
+    display:flex;
+
+    gap:20px;
+
+}
+.scroll-indicator{
+
+    position:absolute;
+
+    bottom:40px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    color:white;
+
+    text-align:center;
+
+    font-size:.9rem;
+
+    z-index:20;
+
+}
+.scroll-indicator span{
+
+    display:block;
+
+    width:2px;
+
+    height:70px;
+
+    background:var(--color-primary);
+
+    margin:auto;
+
+    margin-bottom:15px;
+
+    animation:scrollDown 2s infinite;
+
+}
+@keyframes scrollDown{
+
+0%{
+
+transform:scaleY(.3);
+opacity:.2;
+
+}
+
+50%{
+
+transform:scaleY(1);
+opacity:1;
+
+}
+
+100%{
+
+transform:scaleY(.3);
+opacity:.2;
+
+}
+
+}

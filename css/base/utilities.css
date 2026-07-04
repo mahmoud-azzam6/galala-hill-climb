@@ -1,0 +1,19 @@
+.container{
+
+    width:min(92%,1400px);
+
+    margin:auto;
+
+}
+
+.section{
+
+    padding:120px 0;
+
+}
+
+.text-center{
+
+    text-align:center;
+
+}
